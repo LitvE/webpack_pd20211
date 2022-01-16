@@ -1,0 +1,14 @@
+body{
+    background-image: url('../imgs/winter');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.greetingStyle{
+    text-align: center;
+    font-size: 100px;
+    color: red;
+}

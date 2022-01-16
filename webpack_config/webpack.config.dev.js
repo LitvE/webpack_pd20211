@@ -1,4 +1,4 @@
-const merge = require('webpack-merge');
+const {merge} = require('webpack-merge');
 const commonConfig = require('./webpack.config.common');
 
 const devConfig = merge(commonConfig, {
@@ -12,7 +12,7 @@ const devConfig = merge(commonConfig, {
                     'style-loader',
                     {
                         loader: 'css-loader',
-                        optiond: {
+                        options: {
                             url: true,
                             sourceMap: true,
                             importLoaders: 2,

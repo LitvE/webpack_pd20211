@@ -8,8 +8,8 @@ const config = {
         path: path.resolve(__dirname, '../build'),
         filename: 'main.js'
     },
-    contex: path.resolve(__dirname, '../src'),
-    plugin: [
+    context: path.resolve(__dirname, '../src'),
+    plugins: [
         new HtmlWebpackPlugin({
             template: 'index.html',
             meta: {
